@@ -21,7 +21,7 @@ class NotificationMessageGeneratorImplTest {
         val message = messageGenerator.generateMessage(messageInfo)
         assertEquals(
             "Уважаемый, Сергей!\n" +
-            "Спешим Вам сообщить, что на карту #####73837253400\n" +
+            "Спешим Вам сообщить, что на карту #####\n" +
             "начислен cashback в размере 54.45\n" +
             "за категорию BLACK.\n" +
             "Спасибо за покупку 2020-11-20T01:00".trimIndent(), message)
